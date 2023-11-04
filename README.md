@@ -1,7 +1,7 @@
 # MAD_Assignment1
 Question : Design a GUI for an application demonstrating  activity to activity communication with event handling technique.
 
-<br />"Solution :"
+<br />__Solution :__
 
 <br />Designing a GUI for an application in Flutter that demonstrates activity-to-activity communication with event handling 
 involves creating multiple screens and defining how data is passed between them.
