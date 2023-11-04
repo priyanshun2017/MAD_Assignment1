@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+
+    <ImageView
+        android:id="@+id/image_view_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/image_icon" />
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Data Collection System"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="120dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Enter Name here"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_view_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Enter Password Here(8-12)"
+        android:inputType="number"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/button_next_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_password"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="48dp"
+        android:text="Press to proceed" />
+
+
+</RelativeLayout>
